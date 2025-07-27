@@ -13,7 +13,9 @@ https://github.com/VIKINGYFY/immortalwrt.git
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
-主要针对京东云太乙ER-CS-07进行编译
+固件只针对QUALCOMMAX系列的JDCloud RE-CS-07(京东云太乙有线路由器)
+
+尽可能集成少量的插件
 
 # 目录简要说明：
 
