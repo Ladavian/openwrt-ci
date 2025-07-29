@@ -54,7 +54,7 @@ UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "master" "pkg"
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 #UPDATE_PACKAGE "luci-app-adguardhome" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
-
+UPDATE_PACKAGE "luci-app-onliner" "ftkey/openwrt_pkgs" "main" "pkg"
 #UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
@@ -72,6 +72,7 @@ UPDATE_PACKAGE "taskplan" "sirpdboy/luci-app-taskplan" "master"
 #UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
+UPDATE_PACKAGE "luci-app-advancedplus" "ftkey/openwrt_pkgs" "main" "pkg"
 
 #更新软件包版本
 UPDATE_VERSION() {
