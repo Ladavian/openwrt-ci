@@ -85,6 +85,7 @@ if [ -f "$DM_FILE" ]; then
 
 	cd $PKG_PATH && echo "diskman has been fixed!"
 fi
+
 #修复rpcsvc-proto编译失败
 RP_PATH="../feeds/packages/libs/rpcsvc-proto"
 if [ -d "$RP_PATH" ]; then
