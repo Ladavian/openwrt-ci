@@ -62,7 +62,7 @@ UPDATE_PACKAGE "taskplan" "sirpdboy/luci-app-taskplan" "master"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "luci-app-advancedplus" "ftkey/openwrt_pkgs" "main" "pkg"
-#UPDATE_PACKAGE "smartdns" "lwb1978/openwrt-smartdns" "master"
+UPDATE_PACKAGE "luci-app-filemanager" "sbwml/luci-app-filemanager" "main"
 #UPDATE_PACKAGE "luci-app-smartdns" "pymumu/luci-app-smartdns" "master"
 
 #UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "js" "" "homebox speedtest"
