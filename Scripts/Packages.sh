@@ -46,7 +46,7 @@ UPDATE_PACKAGE() {
 
 # UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
 #UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
-UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "master"
+#UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "master"
 #UPDATE_PACKAGE "luci-app-argon-config" "jerrykuku/luci-app-argon-config" "master"
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 #UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
@@ -60,10 +60,10 @@ UPDATE_PACKAGE "luci-app-adguardhome" "Ladavian/openwrt_pkgs" "main" "pkg"
 UPDATE_PACKAGE "taskplan" "sirpdboy/luci-app-taskplan" "master"
 #UPDATE_PACKAGE "luci-app-smartdns" "pymumu/luci-app-smartdns" "master"
 #UPDATE_PACKAGE "smartdns" "pymumu/openwrt-smartdns" "master"
-#UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
+UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
 UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"
-UPDATE_PACKAGE "luci-theme-kucat" "Ladavian/openwrt_pkgs" "main" "pkg"
-UPDATE_PACKAGE "luci-app-advancedplus" "Ladavian/openwrt_pkgs" "main" "pkg"
+#UPDATE_PACKAGE "luci-theme-kucat" "Ladavian/openwrt_pkgs" "main" "pkg"
+#UPDATE_PACKAGE "luci-app-advancedplus" "Ladavian/openwrt_pkgs" "main" "pkg"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
